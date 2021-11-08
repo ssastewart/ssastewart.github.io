@@ -1,0 +1,19 @@
+body{
+  background-color: #ECDC97;
+  font-family: 'Mochiy Pop P One', sans-serif;
+
+}
+h1{
+
+}
+#gameboard{
+  width: 500px;
+  font-size: 30px;
+  text-align: center;
+
+}
+/* table{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */

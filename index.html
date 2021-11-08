@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="treasurehunt.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap" rel="stylesheet">
+    <title>Feast Game</title>
+      <link rel="icon" type="image/x-icon"  href="./SmileIcon.ico">
+    <script type="text/javascript" src="hunt_js.js">
+    </script>
+  </head>
+
+  <body>
+    <h1 id="top">Family Feast Game!</h1>
+
+    <nav>
+      <a href="#bottom">Take me to the footer</a>
+      <a href="https://www.youtube.com/" target="_blank">Take me to the Youtube</a>
+    </nav>
+
+    <h2>Try your best to find the turkey for our feast</h2>
+    <img src="https://cdn.britannica.com/06/187306-050-0287B644/cornucopia-pumpkins-gords-leaf.jpg"
+    alt="treasure chest" height="450px">
+
+    <h3>Here are the rules for the game</h3>
+
+    <ul>
+    <li>Rule 1: Click one of the question marks below</li>
+    <li>Rule 2: If you find the turkey, you win</li>
+    <li>Rule 3: If you find the empty plate, you lose</li>
+    <li>Rule 4: You have 5 tries</li>
+    </ul>
+    <h3>Let's Go!!!</h3>
+
+ <table id="gameboard" border="1">
+      <tr>
+        <td id = 0 onclick="treasure(0)">?</td>
+        <td id = 1 onclick="treasure(1)">?</td>
+        <td id = 2 onclick="treasure(2)">?</td>
+      </tr>
+
+      <tr>
+        <td id = 3 onclick="treasure(3)">?</td>
+        <td id = 4 onclick="treasure(4)">?</td>
+        <td id = 5 onclick="treasure(5)">?</td>
+      </tr>
+
+      <tr>
+        <td id = 6 onclick="treasure(6)">?</td>
+        <td id = 7 onclick="treasure(7)">?</td>
+        <td id = 8 onclick="treasure(8)">?</td>
+      </tr>
+    </table>
+
+    <h3 id="counter">Turns remaining: 5 </h3>
+    <nav>
+      <a href="#top">Take me to the top</a>
+    </nav>
+
+    <button id="bottom" type="button" onclick="location.reload()">Restart Game</button>
+  </body>
+</html>
+</html>
